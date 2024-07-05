@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Funko";
+    src: url(../fonts/badaboom_bb/BADABB__.TTF);
+}
+ @font-face {
+    font-family: "comic";
+    src: url(../fonts/hey_comic/);
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 75%;
+}
+body{
+    font-size: 0px;
+}
+#contenedor{
+     display: none;
+     
+}
+
+h3{
+     color: #FFE952;
+     font-size: 2.5rem;
+     text-align: center;
+     font-family: funko, cursive;
+     text-shadow: -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+     1px 1px 0 #000,
+     -2px -2px 0 #000,  
+     2px -2px 0 #000,
+     -2px 2px 0 #000,
+     2px 2px 0 #000;
+     letter-spacing: 5px;
+    }
+
+.text1{
+     color: #fff;
+     font-size: 1rem;
+     margin: 0 10%;
+     text-align: center;
+     font-family: comic, cursive;
+     display: none;
+}
+
+span{
+    color: #FFE952;
+    display: none;
+}
+
+.logo {
+    width: 50%;
+}
+
+    .formulario{
+        width: 100%;
+        display: inline-block;
+        background-color: #80395F;
+        vertical-align: top;
+        padding: 50px 1%;
+        min-width: 350px;
+    }
+ 
+     input{
+         width: 75%;
+         padding: 12px 20px;
+         margin: 5px auto;
+         
+         border: none;
+         font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         font-size: 1.5rem;
+         color: #000;
+         background-color: #50B2CD;
+         border-radius: 20px;
+     }
+     input:focus{
+        color: #ffffff;
+         background-color: #565fc3;
+         outline: 0px;
+     }
+     input[name="problema"]{
+         height: 25%;
+         margin-top: -15px;
+        }
+        input[type="submit"]{
+            background-color: #91eded;
+            width: 50%;
+            height: 10%;
+            color: #000;
+            font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: bolder;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 1rem;
+        }
+        input[type="submit"]:hover{
+            background-color: #df9ee9;
+            color: #000;
+            cursor: pointer;
+        }
+
+        input::placeholder{
+            color: #333333;
+            font-size: 1rem;
+        }
+        footer{
+            height: 30%;
+            width: 99%;
+            background-color: #97959A;
+            border: solid 2px #000;
+        }
+        a{
+            font-size: 2rem;
+            font-family: comic, cursive;
+            width: 23%;
+            display: inline-block;
+            vertical-align: middle;
+            color: #565fc3;
+            text-decoration: none;
+        }
+        .responsivo{
+            vertical-align: middle;
+            padding: 15px;
+            width: 100%;
+            min-width: 320px;
+            text-align: center;
+        }
